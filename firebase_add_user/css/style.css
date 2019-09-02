@@ -1,0 +1,113 @@
+body{
+    background-image: url(../image/building.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+section .wrapper div img{
+    width: 100px;
+}
+
+section .wrapper .logo{
+    text-align: center;
+}
+
+section .wrapper{
+    width: 500px;
+    margin-top: 50px;
+}
+
+.login_form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.copyright{
+    text-align: center;
+    opacity: 0.5;
+}
+
+.login_form input[type = submit]{
+    background-color: red;
+    border: red;
+}
+
+.login_form input[type = submit]:hover{
+    background-color: gray;
+}
+
+/* add.html */
+header{
+    background-color: white;
+    box-shadow: 0px 5px #ECECEC;
+}
+
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+header .wrapper .nav_logo, nav{
+    display: inline-block;
+}
+
+.nav_logo{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 2em;
+}
+
+section .bigger_size{
+    width: 800px;
+}
+
+header .bigger_size{
+    width: 800px;
+}
+
+/* navigation */
+header .wrapper nav a{
+    margin-left: 20px;
+}
+
+/* search */
+.search{
+    display: flex;
+}
+
+.search input:first-child{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search input:last-child{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+section .wrapper .login_form .email{
+    float: right;
+    border: 2px solid red;
+    background-color: initial;
+    color: initial;
+}
+
+section .wrapper .login_form .email:hover{
+    background-color: gray;
+    border: 2px solid gray;
+    color: white;
+}
+
+table {
+    background-color: #fff;
+}
